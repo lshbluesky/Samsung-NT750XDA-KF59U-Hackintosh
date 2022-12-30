@@ -10,11 +10,23 @@
 | Sound | Realtek HD Audio ALC 256 |
 | Wi-Fi / Bluetooth | Intel Wi-Fi 6 AX201 160MHz |
 | TouchPad | Samsung I2C Precision TouchPad (SPTP, IOName : ATML3000/ELAN0B00) |
+| BIOS | AMI Aptio Setup Utility (Version P19CFD) |
 
 ## 🍃 Installed macOS & OpenCore Versions
 - macOS Catalina 10.15.7
 - macOS Ventura 13.x
 - OpenCore r0.8.7
+
+## 🍁 BIOS Settings
+- Boot
+  - Secure Boot Control : Off
+  - Fast BIOS Mode : Off
+- Using RU.efi
+  - CpuSetup
+    - CFG Lock (Variable : 0x43) : Disabled (Value : 0x0)
+  - SaSetup
+    - DVMT Pre-Allocated Memory (Variable : 0x84) : 64MB (Value : 0x2)
+    - CD Clock Frequency (Variable: 0x47) : 648 Mhz (Value: 0x7) / 652.8 Mhz (Value: 0x8) 
 
 ## ⚠️ Attention
 - Intel Iris Xe Graphics iGPU is not supported by macOS and QE/CI acceleration is not available.
