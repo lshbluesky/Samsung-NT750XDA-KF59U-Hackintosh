@@ -1,5 +1,7 @@
 # ✨ Samsung-Galaxy-Book-NT750XDA-KF59U-Hackintosh 🌌
 
+![Screenshot](https://user-images.githubusercontent.com/61459016/210082015-4a2a386f-f12f-47b4-beba-b199d8c6b4d7.png)
+
 ## 🌿 System Specification
 | Name | Description |
 | - | - |
