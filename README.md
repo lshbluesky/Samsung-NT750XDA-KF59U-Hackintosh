@@ -3,7 +3,7 @@
 ## 🌿 System Specification
 | Name | Description |
 | - | - |
-| CPU | Intel 11th Gen Tige Lake Core i5 - 1135G7 4.20 GHz |
+| CPU | Intel 11th Gen Tiger Lake Core i5 - 1135G7 4.20 GHz |
 | Chipsets | Intel Tiger Lake - LP |
 | Graphics | Intel Iris Xe Graphics G7 |
 | Memory | LPDDR4x 4267 MHz 8GB |
