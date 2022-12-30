@@ -1,0 +1,80 @@
+76:212  68:123  Found UEFI Acpi 2.0 RSDP at 41680014
+76:226  0:013  Saving ACPI tables from RSDP 41680014 to ACPI\origin ...
+76:233  0:007   41680014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+76:291  0:057    (Xsdt: 4167f728, Rsdt: 4167f394)
+76:299  0:007    4167f728: 'XSDT', 'LH43STAR', Rev: 1, Len: 252 -> XSDT.aml
+76:346  0:047    4167f394: 'RSDT', 'LH43STAR', Rev: 1, Len: 144 -> RSDT.aml
+76:393  0:047    Tables in Xsdt: 27
+76:401  0:007    0. 4167a000: 'FACP', 'LH43STAR', Rev: 6, Len: 276 -> FACP.aml
+76:458  0:057        (Dsdt: 4162D000, Facs: 41737000, XDsdt: 4162d000, XFacs: 0)
+76:481  0:022        4162d000: 'DSDT', 'LH43STAR', Rev: 2, Len: 312366 -> DSDT.aml
+76:540  0:058        41737000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+76:580  0:039    1. 4167e000: 'MCFG', 'LH43STAR', Rev: 1, Len: 60 -> MCFG.aml
+76:627  0:046    2. 4167b000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 9565 -> SSDT-0-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+76:675  0:048        * 1096487576: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1475  53 53 44 54 C3 05 00 00 02 A5 50 6D 52 65 66 00 Internal length = 1475 -> SSDT-x0_0-Cpu0Ist.aml
+76:848  0:172        * 1096291352: 'SSDT', 'ApIst', Rev: 2, Len: 2279  53 53 44 54 E7 08 00 00 02 EF 50 6D 52 65 66 00 Internal length = 2279 -> SSDT-x0_1-ApIst.aml
+77:020  0:172        * 1096287896: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 916  53 53 44 54 94 03 00 00 02 16 50 6D 52 65 66 00 Internal length = 916 -> SSDT-x0_2-Cpu0Cst.aml
+77:190  0:169        * 1096282136: 'SSDT', 'ApCst', Rev: 2, Len: 1162  53 53 44 54 8A 04 00 00 02 9A 50 6D 52 65 66 00 Internal length = 1162 -> SSDT-x0_3-ApCst.aml
+77:359  0:169        * 1096290328: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 651  53 53 44 54 8B 02 00 00 02 F3 50 6D 52 65 66 00 Internal length = 651 -> SSDT-x0_4-Cpu0Hwp.aml
+77:531  0:171        * 1096283800: 'SSDT', 'ApHwp', Rev: 2, Len: 1162  53 53 44 54 8A 04 00 00 02 39 50 6D 52 65 66 00 Internal length = 1162 -> SSDT-x0_5-ApHwp.aml
+77:703  0:172  
+77:711  0:007    3. 4162c000: 'FIDT', 'LH43STAR', Rev: 1, Len: 156 -> FIDT.aml
+77:759  0:047    4. 4162b000: 'MSDM', 'LH43STAR', Rev: 3, Len: 85 -> MSDM.aml
+77:807  0:048    5. 41627000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15865 -> SSDT-1-DptfTabl.aml
+77:857  0:049    6. 41624000: 'SSDT', 'SaSsdt', Rev: 2, Len: 11991 -> SSDT-2-SaSsdt.aml
+77:905  0:048    7. 41620000: 'SSDT', 'IgfxSsdt', Rev: 2, Len: 13176 -> SSDT-3-IgfxSsdt.aml
+77:953  0:047    8. 41614000: 'SSDT', 'TcssSsdt', Rev: 2, Len: 45970 -> SSDT-4-TcssSsdt.aml
+78:003  0:050    9. 41613000: 'HPET', 'LH43STAR', Rev: 1, Len: 56 -> HPET.aml
+78:053  0:049    10. 41612000: 'APIC', 'LH43STAR', Rev: 4, Len: 300 -> APIC.aml
+78:101  0:047    11. 4160c000: 'SSDT', 'TglU_Rvp', Rev: 2, Len: 23750 -> SSDT-5-TglU_Rvp.aml
+78:153  0:052    12. 4160b000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3466 -> SSDT-6-Ther_Rvp.aml
+78:201  0:048    13. 41609000: 'NHLT', 'LH43STAR', Rev: 0, Len: 6257 -> NHLT.aml
+78:249  0:048    14. 41608000: 'LPIT', 'LH43STAR', Rev: 1, Len: 204 -> LPIT.aml
+78:298  0:048    15. 41604000: 'SSDT', 'PtidDevc', Rev: 2, Len: 10016 -> SSDT-7-PtidDevc.aml
+78:346  0:048    16. 41603000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 298 -> SSDT-8-TbtTypeC.aml
+78:395  0:048    17. 41602000: 'DBGP', 'LH43STAR', Rev: 1, Len: 52 -> DBGP.aml
+78:448  0:052    18. 41601000: 'DBG2', 'LH43STAR', Rev: 0, Len: 84 -> DBG2.aml
+78:495  0:047    19. 41600000: 'DMAR', 'EDK2', Rev: 2, Len: 136 -> DMAR.aml
+78:543  0:047    20. 415ff000: 'SSDT', 'xh_tudd4', Rev: 2, Len: 2604 -> SSDT-9-xh_tudd4.aml
+78:592  0:048    21. 415fe000: 'SSDT', 'ADebTabl', Rev: 2, Len: 324 -> SSDT-10-ADebTabl.aml
+78:640  0:047    22. 415fd000: 'TPM2', 'LH43STAR', Rev: 4, Len: 76 -> TPM2.aml
+78:687  0:047    23. 415fc000: 'PTDT', 'LH43STAR', Rev: 0, Len: 3396 -> PTDT.aml
+78:757  0:069    24. 41607000: 'WSMT', 'LH43STAR', Rev: 1, Len: 40 -> WSMT.aml
+78:815  0:058    25. 415fb000: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+78:873  0:057    26. 415fa000: 'BGRT', 'LH43STAR', Rev: 1, Len: 56 -> BGRT.aml
+78:921  0:048  Found UEFI Acpi 1.0 RSDP at 41680000
+78:929  0:007  Printing ACPI tables from RSDP 41680000 ...
+78:936  0:007   41680000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+78:967  0:030    (Rsdt: 4167f000)
+78:976  0:009    4167f000: 'RSDT', 'LH43STAR', Rev: 1, Len: 144
+78:999  0:023    Tables in Rsdt: 27
+79:007  0:007    0. 4167a000: 'FACP', 'LH43STAR', Rev: 6, Len: 276
+79:030  0:022        (Dsdt: 4162D000, Facs: 41737000, XDsdt: 4162d000, XFacs: 0)
+79:052  0:022        4162d000: 'DSDT', 'LH43STAR', Rev: 2, Len: 312366
+79:081  0:028        41737000: 'FACS', Ver: 2, Len: 64
+79:096  0:015    1. 4167e000: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+79:119  0:022    2. 4167b000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 9565
+79:144  0:024    3. 4162c000: 'FIDT', 'LH43STAR', Rev: 1, Len: 156
+79:166  0:022    4. 4162b000: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+79:189  0:022    5. 41627000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15865
+79:212  0:022    6. 41624000: 'SSDT', 'SaSsdt', Rev: 2, Len: 11991
+79:235  0:022    7. 41620000: 'SSDT', 'IgfxSsdt', Rev: 2, Len: 13176
+79:257  0:022    8. 41614000: 'SSDT', 'TcssSsdt', Rev: 2, Len: 45970
+79:280  0:022    9. 41613000: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+79:303  0:022    10. 41612000: 'APIC', 'LH43STAR', Rev: 4, Len: 300
+79:328  0:024    11. 4160c000: 'SSDT', 'TglU_Rvp', Rev: 2, Len: 23750
+79:350  0:022    12. 4160b000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3466
+79:373  0:022    13. 41609000: 'NHLT', 'LH43STAR', Rev: 0, Len: 6257
+79:396  0:022    14. 41608000: 'LPIT', 'LH43STAR', Rev: 1, Len: 204
+79:419  0:022    15. 41604000: 'SSDT', 'PtidDevc', Rev: 2, Len: 10016
+79:442  0:023    16. 41603000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 298
+79:464  0:022    17. 41602000: 'DBGP', 'LH43STAR', Rev: 1, Len: 52
+79:489  0:024    18. 41601000: 'DBG2', 'LH43STAR', Rev: 0, Len: 84
+79:512  0:022    19. 41600000: 'DMAR', 'EDK2', Rev: 2, Len: 136
+79:535  0:022    20. 415ff000: 'SSDT', 'xh_tudd4', Rev: 2, Len: 2604
+79:557  0:022    21. 415fe000: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+79:582  0:024    22. 415fd000: 'TPM2', 'LH43STAR', Rev: 4, Len: 76
+79:604  0:022    23. 415fc000: 'PTDT', 'LH43STAR', Rev: 0, Len: 3396
+79:628  0:023    24. 41607000: 'WSMT', 'LH43STAR', Rev: 1, Len: 40
+79:651  0:022    25. 415fb000: 'FPDT', 'A M I', Rev: 1, Len: 68
+79:675  0:024    26. 415fa000: 'BGRT', 'LH43STAR', Rev: 1, Len: 56
