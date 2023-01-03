@@ -74,6 +74,7 @@
 			<string>VoodooGPIOIceLakeLP</string>
 			<key>IONameMatch</key>
 			<array>
+				<string>INT3455</string>
 				<string>INT34C5</string>
 			</array>
 			<key>IOProviderClass</key>
