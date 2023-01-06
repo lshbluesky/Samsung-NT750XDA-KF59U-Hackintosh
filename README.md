@@ -17,7 +17,7 @@
 ## 🍃 Installed macOS & OpenCore Versions
 - macOS Catalina 10.15.7
 - macOS Ventura 13.x
-- OpenCore r0.8.7
+- OpenCore r0.8.8
 
 ## 🍁 BIOS Settings
 - Boot
