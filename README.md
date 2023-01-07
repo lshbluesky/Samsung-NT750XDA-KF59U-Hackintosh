@@ -33,3 +33,18 @@
 ## ⚠️ Attention
 - Intel Iris Xe Graphics iGPU is not supported by macOS and QE/CI acceleration is not available.
   - Therefore, it is difficult to actually use macOS on Intel 11th Gen Tiger Lake systems.
+
+## ✅ Working
+- [X] Realtek ALC 256 Internal Speaker
+- [X] USB 3.x & USB Port Map
+- [X] Battery Percentage Indication
+- [X] Samsung I2C Precision TouchPad (Polling Mode Only)
+
+## ❌ Not Working
+- [ ] Intel Iris Xe Graphics G7 QE/CI
+- [ ] Realtek ALC 256 Internal Microphone
+- [ ] Speed Step & Power Management (Speed Shift + XCPM)
+- [ ] Integrated Webcam
+- [ ] Brightness Control
+- [ ] Fn Keys (Brightness & Sound Volume Control)
+- [ ] Sleep & Wake
