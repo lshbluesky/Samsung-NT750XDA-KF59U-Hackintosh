@@ -24,11 +24,11 @@
   - Secure Boot Control : Off
   - Fast BIOS Mode : Off
 - Using RU.efi
-  - CpuSetup
-    - CFG Lock (Variable : 0x43) : Disabled (Value : 0x0)
-  - SaSetup
-    - DVMT Pre-Allocated Memory (Variable : 0x84) : 64MB (Value : 0x2)
-    - CD Clock Frequency (Variable: 0x47) : 648 Mhz (Value: 0x7) / 652.8 Mhz (Value: 0x8) 
+  - CpuSetup `(VarStore : 0x2)`
+    - CFG Lock `(Variable : 0x43)` : Disabled `(Value : 0x0)`
+  - SaSetup `(VarStore : 0x5)`
+    - DVMT Pre-Allocated Memory `(Variable : 0x84)` : 64MB `(Value : 0x2)`
+    - CD Clock Frequency `(Variable: 0x47)` : 648 Mhz `(Value: 0x7)` / 652.8 Mhz `(Value: 0x8)`
 
 ## ⚠️ Attention
 - Intel Iris Xe Graphics iGPU is not supported by macOS and QE/CI acceleration is not available. [Issue #2](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/issues/2)
