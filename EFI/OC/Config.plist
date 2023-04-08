@@ -307,6 +307,8 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AgBRig==</data>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAJ5QYKAAAAAAEfAQSlIhN4AiEQmFxXjCgbTlMAAAABAQEBAQEBAQEBAQEBAQEBuTeA3HA4H0AwIDUAWMIQAAAaAAAAAAAAAAAAAAAAAAAAAAAaAAAA/gBCT0UgMTgKICAgICAgAAAA/gBORTE1NkZITS1OUzAKACY=</data>
 				<key>device-id</key>
 				<data>UooAAA==</data>
 				<key>model</key>
