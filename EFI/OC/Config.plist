@@ -1084,7 +1084,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -wegdbg -DisableIOFB</string>
+				<string>-v keepsyms=1 debug=0x100 -igfxvesa</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
