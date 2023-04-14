@@ -37,6 +37,7 @@
 ## ✅ Working
 - [X] Realtek ALC 256 Internal Speaker
 - [X] USB 3.x & USB Port Map
+- [X] Integrated Webcam
 - [X] Battery Percentage Indication
 - [X] Samsung I2C Precision TouchPad (Polling Mode Only)
 
@@ -44,7 +45,6 @@
 - [ ] Intel Iris Xe Graphics G7 QE/CI
 - [ ] Realtek ALC 256 Internal Microphone
 - [ ] Speed Step & Power Management (Speed Shift + XCPM)
-- [ ] Integrated Webcam
 - [ ] Brightness Control
 - [ ] Fn Keys (Brightness & Sound Volume Control)
 - [ ] Sleep & Wake
