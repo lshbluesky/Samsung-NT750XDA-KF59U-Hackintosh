@@ -36,6 +36,7 @@
 
 ## ✅ Working
 - [X] Realtek ALC 256 Internal Speaker
+- [X] Intel Wi-Fi 6 AX201 160MHz
 - [X] USB 3.x & USB Port Map
 - [X] Integrated Webcam
 - [X] Battery Percentage Indication
