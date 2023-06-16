@@ -24,8 +24,8 @@
 
 ## 🍁 BIOS Settings
 - Boot
-  - Secure Boot Control : Off
-  - Fast BIOS Mode : Off
+  - Secure Boot Control : `Off`
+  - Fast BIOS Mode : `Off`
 - Using RU.efi
   - CpuSetup `(VarStore : 0x2)`
     - CFG Lock `(Variable : 0x43)` : Disabled `(Value : 0x0)`
