@@ -16,8 +16,11 @@
 
 ## 🍃 Installed macOS & OpenCore Versions
 - macOS Catalina 10.15.7
+- macOS Big Sur 11.x
+- macOS Monterey 12.x
 - macOS Ventura 13.x
-- OpenCore r0.9.2
+- macOS Sonoma 14 Beta
+- OpenCore r0.9.3
 
 ## 🍁 BIOS Settings
 - Boot
