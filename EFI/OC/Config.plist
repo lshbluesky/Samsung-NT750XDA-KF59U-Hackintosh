@@ -649,7 +649,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NVMeFix</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>22.99.99</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -1306,6 +1306,8 @@
 		<dict>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
+			<key>ConsoleFont</key>
+			<string></string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
@@ -1374,6 +1376,8 @@
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
+			<false/>
+			<key>PciIo</key>
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
