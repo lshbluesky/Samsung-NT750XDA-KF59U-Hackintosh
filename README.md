@@ -33,7 +33,7 @@
     - CFG Lock `(Variable : 0x43)` : Disabled `(Value : 0x0)`
   - SaSetup `(VarStore : 0x5)`
     - DVMT Pre-Allocated Memory `(Variable : 0x84)` : 64MB `(Value : 0x2)`
-    - CD Clock Frequency `(Variable: 0x47)` : 648 Mhz `(Value: 0x7)` / 652.8 Mhz `(Value: 0x8)`
+    - CD Clock Frequency `(Variable : 0x47)` : 648 MHz `(Value : 0x7)` / 652.8 MHz `(Value : 0x8)`
 
 ## ⚠️ Attention
 - Intel Iris Xe Graphics iGPU is not supported by macOS and QE/CI acceleration is not available. [Issue #2](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/issues/2)
@@ -41,7 +41,9 @@
 
 ## ✅ Working
 - [X] Realtek ALC 256 Internal Speaker
+- [X] Speed Step (XCPM, Partially working)
 - [X] Intel Wi-Fi 6 AX201 160MHz
+- [X] Intel AX201 Bluetooth
 - [X] USB 3.x & USB Port Map
 - [X] Integrated Webcam
 - [X] Battery Percentage Indication
@@ -50,7 +52,7 @@
 ## ❌ Not Working
 - [ ] Intel Iris Xe Graphics G7 QE/CI
 - [ ] Realtek ALC 256 Internal Microphone
-- [ ] Speed Step & Power Management (Speed Shift + XCPM)
+- [ ] Complete/Full Power Management
 - [ ] Brightness Control
 - [ ] Fn Keys (Brightness & Sound Volume Control)
 - [ ] Sleep & Wake
