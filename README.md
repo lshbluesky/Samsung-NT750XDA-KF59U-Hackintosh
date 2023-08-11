@@ -14,7 +14,7 @@
 | Sound | Realtek HD Audio ALC 256 |
 | Wi-Fi / Bluetooth | Intel Wi-Fi 6 AX201 160MHz |
 | TouchPad | Samsung I2C Precision TouchPad (SPTP, IOName : ATML3000/ELAN0B00) |
-| BIOS | AMI Aptio Setup Utility (Version P19CFD) |
+| BIOS | AMI Aptio Setup Utility (Version P20CFD) |
 
 ## 🍃 Installed macOS & OpenCore Versions
 - macOS Catalina 10.15.7
