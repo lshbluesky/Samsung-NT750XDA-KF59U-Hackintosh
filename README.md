@@ -2,7 +2,7 @@
 
 ![Screenshot](https://user-images.githubusercontent.com/61459016/210082015-4a2a386f-f12f-47b4-beba-b199d8c6b4d7.png)
 
-![Sonoma](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/assets/61459016/eed1b617-e3a0-41f2-bf2e-5810f2af7063)
+![Sonoma](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/assets/61459016/cb2207e8-4722-4563-94c5-a8f7348c2225)
 
 ## 🌿 System Specification
 | Name | Description |
