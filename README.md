@@ -1,8 +1,8 @@
 # ✨ Samsung Galaxy Book NT750XDA-KF59U Hackintosh 🌌
 
-![Screenshot](https://user-images.githubusercontent.com/61459016/210082015-4a2a386f-f12f-47b4-beba-b199d8c6b4d7.png)
+![iGPU Info](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/assets/61459016/d66c1321-5d2b-4ac1-a0a6-89bef2fcfed6)
 
-![Sonoma](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/assets/61459016/cb2207e8-4722-4563-94c5-a8f7348c2225)
+![Sonoma](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/assets/61459016/d2c46935-07e5-4de5-9edc-f0e4c16235f3)
 
 ## 🌿 System Specification
 | Name | Description |
