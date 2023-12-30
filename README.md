@@ -36,7 +36,7 @@
     - CD Clock Frequency `(Variable : 0x47)` : 648 MHz `(Value : 0x7)` / 652.8 MHz `(Value : 0x8)`
 
 ## ⚠️ Attention
-- Intel Iris Xe Graphics iGPU is not supported by macOS and QE/CI acceleration is not available. [Issue #2](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/issues/2)
+- Intel Iris Xe Graphics iGPU is not supported by macOS and QE/CI acceleration is not available. [Discussion #15](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/discussions/15)
   - Therefore, it is difficult to actually use macOS on Intel 11th Gen Tiger Lake systems.
 
 ## ✅ Working
