@@ -307,12 +307,34 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>AgBRig==</data>
+				<data>AQBxig==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
 				<key>AAPL00,override-no-connect</key>
 				<data>AP///////wAJ5QYKAAAAAAEfAQSlIhN4AiEQmFxXjCgbTlMAAAABAQEBAQEBAQEBAQEBAQEBuTeA3HA4H0AwIDUAWMIQAAAaAAAAAAAAAAAAAAAAAAAAAAAaAAAA/gBCT0UgMTgKICAgICAgAAAA/gBORTE1NkZITS1OUzAKACY=</data>
 				<key>device-id</key>
-				<data>UooAAA==</data>
+				<data>cYoAAA==</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>dpcd-max-link-rate</key>
+				<data>CgAAAA==</data>
+				<key>enable-cdclk-frequency-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-dbuf-early-optimizer</key>
+				<data>AQAAAA==</data>
+				<key>enable-dpcd-max-link-rate-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-dvmt-calc-fix</key>
+				<data>AQAAAA==</data>
+				<key>force-online</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAwA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel Iris Xe Graphics</string>
 			</dict>
@@ -1108,7 +1130,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -igfxvesa</string>
+				<string>-v keepsyms=1 debug=0x100 -wegdbg -igfxvesa</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
