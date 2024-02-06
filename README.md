@@ -7,8 +7,8 @@
 ## 🌿 System Specification
 | Name | Description |
 | - | - |
-| CPU | Intel 11th Gen Tiger Lake Core i5 - 1135G7 4.20 GHz |
-| Chipsets | Intel Tiger Lake - LP |
+| CPU | Intel 11th Gen Tiger Lake Core i5-1135G7 4.20 GHz |
+| Chipsets | Intel Tiger Lake-LP |
 | Graphics | Intel Iris Xe Graphics G7 |
 | Memory | LPDDR4x 4267 MHz 8GB |
 | Sound | Realtek HD Audio ALC 256 |
@@ -22,7 +22,7 @@
 - macOS Monterey 12.x
 - macOS Ventura 13.x
 - macOS Sonoma 14.x
-- OpenCore r0.9.7
+- OpenCore r0.9.8
 
 ## 🍁 BIOS Settings
 - Boot
@@ -41,6 +41,8 @@
 
 ## ✅ Working
 - [X] Realtek ALC 256 Internal Speaker
+- [X] Realtek ALC 256 ComboJack Headphone
+- [X] Realtek ALC 256 ComboJack Microphone
 - [X] Speed Step (XCPM, Partially working)
 - [X] Intel Wi-Fi 6 AX201 160MHz
 - [X] Intel AX201 Bluetooth
