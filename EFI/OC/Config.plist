@@ -310,15 +310,19 @@
 				<key>AAPL,GfxYTile</key>
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>AQBxig==</data>
+				<data>AABxig==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>AAPL00,override-no-connect</key>
 				<data>AP///////wAJ5QYKAAAAAAEfAQSlIhN4AiEQmFxXjCgbTlMAAAABAQEBAQEBAQEBAQEBAQEBuTeA3HA4H0AwIDUAWMIQAAAaAAAAAAAAAAAAAAAAAAAAAAAaAAAA/gBCT0UgMTgKICAgICAgAAAA/gBORTE1NkZITS1OUzAKACY=</data>
+				<key>complete-modeset</key>
+				<data>AQAAAA==</data>
 				<key>device-id</key>
 				<data>cYoAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>disable-agdc</key>
+				<data>AQAAAA==</data>
 				<key>dpcd-max-link-rate</key>
 				<data>CgAAAA==</data>
 				<key>enable-cdclk-frequency-fix</key>
@@ -331,10 +335,10 @@
 				<data>AQAAAA==</data>
 				<key>force-online</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAwA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<data>AAAAgA==</data>
 				<key>model</key>
 				<string>Intel Iris Xe Graphics</string>
 			</dict>
