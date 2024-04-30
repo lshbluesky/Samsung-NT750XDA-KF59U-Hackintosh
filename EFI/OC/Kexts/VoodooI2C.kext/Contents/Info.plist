@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19F101</string>
+	<string>22G630</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -27,17 +27,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E801a</string>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>14.0</string>
 	<key>DTSDKBuild</key>
-	<string>19G68</string>
+	<string>23A334</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx14.0</string>
 	<key>DTXcode</key>
-	<string>1170</string>
+	<string>1500</string>
 	<key>DTXcodeBuild</key>
-	<string>11E801a</string>
+	<string>15A240d</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Custom MT2 Personality</key>
@@ -511,6 +513,25 @@
 			<key>IOProviderClass</key>
 			<string>IOService</string>
 		</dict>
+		<key>VoodooI2CACPIControllerAMD</key>
+		<dict>
+			<key>AccessIntrMaskWorkaround</key>
+			<true/>
+			<key>CFBundleIdentifier</key>
+			<string>com.alexandred.VoodooI2C</string>
+			<key>IOClass</key>
+			<string>VoodooI2CACPIController</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>AMD0010</string>
+				<string>AMDI0010</string>
+				<string>AMDI0510</string>
+			</array>
+			<key>IOProbeScore</key>
+			<integer>9999</integer>
+			<key>IOProviderClass</key>
+			<string>IOService</string>
+		</dict>
 		<key>VoodooI2CControllerDriver</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -542,7 +563,7 @@
 			<key>IOClass</key>
 			<string>VoodooI2CPCILakeController</string>
 			<key>IOPCIMatch</key>
-			<string>0x06e88086&amp;0xFFFCFFFF 0x02e88086&amp;0xFFFCFFFF 0x34e88086&amp;0xFFFCFFFF 0xa0e88086&amp;0xFFFCFFFF</string>
+			<string>0x06e88086&amp;0xFFFCFFFF 0x02e88086&amp;0xFFFCFFFF 0x34e88086&amp;0xFFFCFFFF 0xa0e88086&amp;0xFFFCFFFF 0x43e88086&amp;0xFFFCFFFF</string>
 			<key>IOProbeScore</key>
 			<integer>9999</integer>
 			<key>IOProviderClass</key>
