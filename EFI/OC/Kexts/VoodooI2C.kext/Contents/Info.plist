@@ -563,7 +563,7 @@
 			<key>IOClass</key>
 			<string>VoodooI2CPCILakeController</string>
 			<key>IOPCIMatch</key>
-			<string>0x06e88086&amp;0xFFFCFFFF 0x02e88086&amp;0xFFFCFFFF 0x34e88086&amp;0xFFFCFFFF 0xa0e88086&amp;0xFFFCFFFF 0x43e88086&amp;0xFFFCFFFF</string>
+			<string>0x06e88086&amp;0xFFFCFFFF 0x02e88086&amp;0xFFFCFFFF 0x43e88086&amp;0xFFFCFFFF 0x34e88086&amp;0xFFFCFFFF 0xa0e88086&amp;0xFFFCFFFF</string>
 			<key>IOProbeScore</key>
 			<integer>9999</integer>
 			<key>IOProviderClass</key>
