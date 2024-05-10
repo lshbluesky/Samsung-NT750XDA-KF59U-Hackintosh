@@ -22,7 +22,7 @@
 - macOS Monterey 12.x
 - macOS Ventura 13.x
 - macOS Sonoma 14.x
-- OpenCore r0.9.9
+- OpenCore r1.0.0
 
 ## 🍁 BIOS Settings
 - Boot
