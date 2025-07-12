@@ -40,6 +40,27 @@
 - Intel Iris Xe Graphics iGPU is not supported by macOS and QE/CI acceleration is not available. [Discussion #15](https://github.com/lshbluesky/Samsung-NT750XDA-KF59U-Hackintosh/discussions/15)
   - Therefore, it is difficult to actually use macOS on Intel 11th Gen Tiger Lake systems.
 
+## 📋 Install Guide
+- The installation guide is almost the same as the Ice Lake Laptop in the OpenCore Install Guide. [Link](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html)
+  - However, the following additional settings are required.
+
+1. Apply Fake CPU ID.
+    - Cpuid1Data : `E5060700 00000000 00000000 00000000`
+    - Cpuid1Mask : `FFFFFFFF 00000000 00000000 00000000`
+
+2. Set `AppleXcpmExtraMsrs` to `True` in Kernel - Quirks of Config.plist.
+    - If `AppleXcpmExtraMsrs` in Kernel - Quirks is not set to `True`, the booting stops at the `[EB|#LOG:EXITBS:START]` log.
+
+But, the above settings are already applied to the EFI folder.
+So, you only need to modify the settings for the graphics-related parts below.
+
+While installing macOS, delete all items(including IGPU) in Config.plist - Device Properties and boot by adding the `-igfxvesa` boot arg.
+Try various ways to enable QE/CI acceleration of Iris Xe graphics **after macOS installation is complete.**
+
+> [!NOTE]
+> If you still cannot boot or install macOS, it seems that you need to check the log and modify the settings to suit your Tiger Lake laptop.
+> I hope you will solve this yourself.
+
 ## ✅ Working
 - [X] Realtek ALC 256 Internal Speaker
 - [X] Realtek ALC 256 ComboJack Headphone
